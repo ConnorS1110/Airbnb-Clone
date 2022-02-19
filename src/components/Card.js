@@ -23,7 +23,7 @@ export default function Card(props) {
                     <p>·</p>
                     <p className='location'>{props.item.location}</p>
                 </div>
-                <p className='card-description'>{props.title}</p>
+                <p className='card-description'>{props.item.title}</p>
                 <p className='card-price'><strong>From ${props.item.price}</strong> / person</p>
             </div>
         </div>
